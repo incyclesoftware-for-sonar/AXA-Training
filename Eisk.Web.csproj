@@ -78,17 +78,6 @@
     </Compile>
     <Compile Include="App_Logic\Business Entities\Employee.Custom.cs" />
     <Content Include="about-eisk.aspx" />
-    <Content Include="App_Data\Database.mdf" />
-    <Content Include="App_Data\Database_log.ldf">
-      <DependentUpon>Database.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\SQL\Database\Create-Database.sql" />
-    <Content Include="App_Data\SQL\Database\Drop-Database.sql" />
-    <Content Include="App_Data\SQL\Data\Clean-Data.sql" />
-    <Content Include="App_Data\SQL\Data\Create-Data.sql" />
-    <Content Include="App_Data\SQL\Extras\Script.sql" />
-    <Content Include="App_Data\SQL\Schema\Clean-Schema.sql" />
-    <Content Include="App_Data\SQL\Schema\Create-Schema.sql" />
     <Compile Include="App_Logic\Business Logic Layer\Business Logic Layer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
