@@ -260,6 +260,7 @@
     <Content Include="App_Resources\images\noimage.gif" />
     <Content Include="App_Resources\messages\error-page.aspx" />
     <Content Include="App_Resources\system\log\log.txt" />
+    <Content Include="parameters.xml" />
     <Content Include="secured\admin\admin-default.aspx" />
     <Content Include="secured\default.aspx" />
     <Content Include="secured\log-in\log-in.aspx" />
