@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eisk.Web", "Eisk.Web.csproj", "{E4054609-47C8-40ED-9B17-74084D2A38CE}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Eisk.Database", "Eisk.Database\Eisk.Database.sqlproj", "{5378F707-0CA0-4055-B603-E5F07C0B5B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,42 @@ Global
 		{E4054609-47C8-40ED-9B17-74084D2A38CE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E4054609-47C8-40ED-9B17-74084D2A38CE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E4054609-47C8-40ED-9B17-74084D2A38CE}.Release|x86.ActiveCfg = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|.NET.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|.NET.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|x86.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|.NET.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|.NET.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|.NET.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|Any CPU.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|x86.ActiveCfg = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|x86.Build.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Default|x86.Deploy.0 = Debug|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|.NET.Build.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|.NET.Deploy.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|x86.ActiveCfg = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|x86.Build.0 = Release|Any CPU
+		{5378F707-0CA0-4055-B603-E5F07C0B5B8C}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
