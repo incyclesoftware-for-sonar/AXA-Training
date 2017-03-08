@@ -2,7 +2,7 @@
 <parameters>
    <parameter name="connectionString" 
               description="DB connection" 
-              defaultvalue="metadata=&quot;res://*/App_Logic.Entity Model.DatabaseContext.csdl|res://*/App_Logic.Entity Model.DatabaseContext.ssdl|res://*/App_Logic.Entity Model.DatabaseContext.msl&quot;;provider=System.Data.SqlClient;provider connection string=&quot;Data source=_[SQLSERVER]_;Initial Catalog=_[DB1]_;Integrated Security=True;MultipleActiveResultSets=True&quot;" 
+              defaultvalue="metadata=&quot;res://*/App_Logic.Entity Model.DatabaseContext.csdl|res://*/App_Logic.Entity Model.DatabaseContext.ssdl|res://*/App_Logic.Entity Model.DatabaseContext.msl&quot;;provider=System.Data.SqlClient;provider connection string=&quot;Data source=_[SQLSERVER]_;Initial Catalog=_[DB1]_;Integrated Security=False;User Id=_[DBLOGIN]_;Password=_[DBPASSWORD]_;MultipleActiveResultSets=True&quot;" 
               tags="">
      <parameterentry kind="XmlFile" 
                      scope="\\web.config$" 
