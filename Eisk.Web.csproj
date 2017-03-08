@@ -316,6 +316,7 @@
     </None>
     <None Include="App_Logic\Data Access Layer\DatabaseContext.cd" />
     <Content Include="packages.config" />
+    <Content Include="Scripts\CopyFilesToWebSite.ps1" />
     <None Include="web.token.config">
       <TransformOnBuild>true</TransformOnBuild>
     </None>
